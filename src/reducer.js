@@ -24,4 +24,4 @@ let action = { type: "counter/increment" };
 
 changeState(state, action);
 
-// render();
+render();
