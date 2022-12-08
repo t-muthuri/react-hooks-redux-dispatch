@@ -15,11 +15,9 @@ function render () {
 
 function dispatch(action){
   state = changeState (state, action);
-  // return state;
   render();
 }
 
-// let state = { count: 0 };
 let action = { type: "counter/increment" };
 
 changeState(state, action);
